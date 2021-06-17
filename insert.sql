@@ -28,23 +28,23 @@ VALUES(7,'The City and The City',5);
 INSERT INTO books (id,title,publisher)
 VALUES(8,'The Great War for Civilisation',6);
 
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(1,'C');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(2,'UNIX');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(3,'Technology');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(4,'Go');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(5,'Science Fiction');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(6,'Productivity');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(7,'Psychology');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(8,'Politics');
-INSERT INTO subjects (id,title)
+INSERT INTO subjects (id,name)
 VALUES(9,'History');
 
 INSERT INTO books_subjects (book,subject)
