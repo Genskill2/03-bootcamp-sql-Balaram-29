@@ -1,1 +1,1 @@
-SELECT (title) FROM books WHERE publisher = 5 OR publisher = 6;
+SELECT title,name FROM books,publisher WHERE books.publisher = publisher.id AND publisher.country='UK';
